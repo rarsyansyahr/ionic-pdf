@@ -1,0 +1,7 @@
+{
+  "name": "ionicPdf",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
