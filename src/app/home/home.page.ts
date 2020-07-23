@@ -37,9 +37,9 @@ export class HomePage implements OnInit {
   ngOnInit() {
     this.myForm = this.fb.group({
       showLogo: true,
-      from: "Simon",
-      to: "Max",
-      text: "TEXTX",
+      from: "Arsy",
+      to: "You Chan",
+      text: "Ana ukhibbuki",
     });
 
     this.loadLocalAssetToBase64();
@@ -147,7 +147,7 @@ export class HomePage implements OnInit {
       },
     };
 
-    this.pdfObj = pdfMake.cretePdf(docDefinition);
+    this.pdfObj = pdfMake.createPdf(docDefinition);
     console.log(this.pdfObj);
   }
 
